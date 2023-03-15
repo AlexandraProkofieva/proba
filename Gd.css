@@ -1,0 +1,163 @@
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  font-size: 16px;
+
+  line-height: 1.6;
+
+  color: #333;
+
+}
+
+a {
+
+  color: #111;
+
+  text-decoration: none;
+
+}
+
+a:hover {
+
+  text-decoration: underline;
+
+}
+
+h1, h2, h3 {
+
+  font-weight: 700;
+
+  margin-bottom: 0.5em;
+
+}
+
+blockquote {
+
+  margin: 2em;
+
+  font-style: italic;
+
+  border-left: 4px solid #333;
+
+  padding: 0 1em;
+
+}
+
+cite {
+
+  display: block;
+
+  font-style: normal;
+
+  text-align: right;
+
+  margin-top: 0.5em;
+
+}
+
+.page-header {
+
+  background-color: #f3f3f3;
+
+  padding: 1em;
+
+  text-align: center;
+
+}
+
+.title {
+
+  margin-bottom: 0.5em;
+
+  font-size: 2em;
+
+}
+
+.accent {
+
+  color: #ff6600;
+
+}
+
+.page-main {
+
+  max-width: 1000px;
+
+  margin: 0 auto;
+
+  padding: 2em 1em;
+
+}
+
+/* Стили для списка дней */
+
+.days-list {
+
+  list-style: decimal;
+
+  margin-left: 2em;
+
+}
+
+.day {
+
+  margin-top: 2em;
+
+}
+
+.day h2 {
+
+  font-size: 1.5em;
+
+}
+
+/* Стили для ссылок на дни */
+
+.day a {
+
+  display: inline-block;
+
+  background-color: #f3f3f3;
+
+  color: #333;
+
+  padding: 0.5em;
+
+  border-radius: 5px;
+
+  text-align: center;
+
+  transition: all 0.2s ease-in-out;
+
+}
+
+.day a:hover {
+
+  background-color: #ff6600;
+
+  color: #fff;
+
+}
+
+/* Стили для футера */
+
+.page-footer {
+
+  background-color: #333;
+
+  color: #f3f3f3;
+
+  text-align: center;
+
+  padding: 1em;
+
+}
